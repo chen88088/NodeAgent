@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: FastAPI",
+            "type": "python",
+            "request": "launch",
+            "module": "uvicorn",
+            "args": [
+                "NodeAgent:app",
+                "--host", "10.52.52.137",
+                "--port", "8080",
+                "--reload"
+            ],
+            "jinja": true,
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            },
+            "python": "C:/Users/PongeSheng/anaconda3/envs/nodeagent/python.exe",
+        }
+    ]
+}
